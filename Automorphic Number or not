@@ -1,0 +1,21 @@
+#include <stdio.h>
+//#include <string.h>
+//#include <math.h>
+//#include <stdlib.h>
+
+int main() 
+{
+    int j;
+    scanf("%d",&j);
+    if(((j*j)%10)==j)
+        {
+            printf("Automorphic Number");
+        }
+    else
+    {
+        printf("Not an Automorphic Number ");
+    }
+        
+    
+       
+}
